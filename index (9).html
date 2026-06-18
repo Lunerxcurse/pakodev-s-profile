@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Serif%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Pakodev's Profile</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#101323] dark group/design-root overflow-x-hidden" style='font-family: "Noto Serif", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="px-4 sm:px-8 md:px-16 lg:px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:px-4 @[480px]:py-3">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-[#101323] rounded-xl @[480px]:rounded-xl min-h-[180px] sm:min-h-[218px]"
+                  style='background-image: url("3497-blue-anime.png");'
+                ></div>
+              </div>
+            </div>
+            <div class="flex p-4 @container">
+              <div class="flex w-full flex-col gap-4 @[520px]:flex-row @[520px]:justify-between @[520px]:items-center">
+                <div class="flex gap-3 sm:gap-4 flex-col sm:flex-row items-start">
+                  <div class="flex items-start">
+                    <div class="relative">
+                      <div id="user-avatar" class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-24 w-24 sm:min-h-32 sm:w-32" style="background-image: url('e7b7e3f6758e91d1afc936854a58b0c0.png')"></div>
+                      <div class="absolute bottom-0 right-0 w-8 h-8 sm:w-10 sm:h-10 bg-green-500 rounded-full border-4 border-[#101323] flex items-center justify-center">
+                        <div class="w-2 h-2 sm:w-3 sm:h-3 bg-white rounded-full animate-pulse"></div>
+                      </div>
+                      <div id="current-project-desktop" class="hidden sm:block absolute -top-2 -right-2 bg-[#2f396a] rounded-lg px-2 py-1 sm:px-3 sm:py-2 text-xs text-white whitespace-nowrap shadow-lg max-w-[120px] sm:max-w-none">
+                        <div class="text-green-400 font-semibold">Working on</div>
+                        <div id="current-project-name-desktop">Vidlo</div>
+                      </div>
+                    </div>
+                    <div id="current-project-mobile" class="block sm:hidden ml-2 mt-2 bg-[#2f396a] rounded-lg px-2 py-1 text-xs text-white whitespace-nowrap shadow-lg max-w-[120px] sm:max-w-none">
+                      <div class="text-green-400 font-semibold">Working on</div>
+                      <div id="current-project-name-mobile">Vidlo</div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col justify-center">
+                    <p id="username" class="text-white text-lg sm:text-[22px] font-bold leading-tight tracking-[-0.015em]">@Pakodev</p>
+                    <p class="text-[#8e99cc] text-sm sm:text-base font-normal leading-normal">Charlotte, FL</p>
+                    <p class="text-[#8e99cc] text-sm sm:text-base font-normal leading-normal">Joined in 2024</p>
+                    <div class="flex items-center gap-2 mt-2">
+                      <button id="follow-btn" class="px-4 py-2 bg-[#4285f4] hover:bg-[#3367d6] rounded-lg text-white text-sm font-medium transition-colors">
+                        Follow
+                      </button>
+                      <!-- Social links for mobile -->
+                      <div class="flex gap-2 sm:hidden">
+                        <a href="https://www.roblox.com/users/151815165/profile" target="_blank" class="group">
+                          <img src="https://i.pinimg.com/736x/f8/9d/e3/f89de387a07563ee444f8e9e17f7bb8c.jpg" alt="Roblox" class="w-9 h-9 rounded-full object-cover transition-transform group-hover:scale-110">
+                        </a>
+                        <a href="https://discord.com/users/1311869629714399342" target="_blank" class="group">
+                          <img src="https://cdn-icons-png.flaticon.com/512/3670/3670157.png" alt="Discord" class="w-9 h-9 rounded-full object-cover transition-transform group-hover:scale-110">
+                        </a>
+                        <a href="https://github.com/Lunerxcurse" target="_blank" class="group">
+                          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" class="w-9 h-9 rounded-full object-cover transition-transform group-hover:scale-110">
+                        </a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden sm:flex gap-3 flex-row items-center justify-center sm:justify-end">
+                  <a href="https://www.roblox.com/users/151815165/profile" target="_blank" class="flex flex-col items-center gap-2 text-center group">
+                    <img src="https://i.pinimg.com/736x/f8/9d/e3/f89de387a07563ee444f8e9e17f7bb8c.jpg" alt="Roblox" class="w-12 h-12 rounded-full object-cover transition-transform group-hover:scale-110">
+                    <span class="text-[#8e99cc] text-xs group-hover:text-white transition-colors">Roblox</span>
+                  </a>
+                  <a href="https://discord.com/users/1311869629714399342" target="_blank" class="flex flex-col items-center gap-2 text-center group">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3670/3670157.png" alt="Discord" class="w-12 h-12 rounded-full object-cover transition-transform group-hover:scale-110">
+                    <span class="text-[#8e99cc] text-xs group-hover:text-white transition-colors">Discord</span>
+                  </a>
+                  <a href="https://github.com/Lunerxcurse" target="_blank" class="flex flex-col items-center gap-2 text-center group">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" class="w-12 h-12 rounded-full object-cover transition-transform group-hover:scale-110">
+                    <span class="text-[#8e99cc] text-xs group-hover:text-white transition-colors">GitHub</span>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+            <div class="@container">
+              <div class="gap-2 px-4 flex flex-wrap justify-start">
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2 sm:gap-3 px-4 py-3">
+              <div class="flex min-w-[100px] sm:min-w-[111px] flex-1 basis-[fit-content] flex-col gap-2 rounded-lg border border-[#2f396a] p-2 sm:p-3 items-start">
+                <p id="projects-count" class="text-white tracking-light text-xl sm:text-2xl font-bold leading-tight">3</p>
+                <div class="flex items-center gap-2"><p class="text-[#8e99cc] text-xs sm:text-sm font-normal leading-normal">Projects</p></div>
+              </div>
+              <div class="flex min-w-[100px] sm:min-w-[111px] flex-1 basis-[fit-content] flex-col gap-2 rounded-lg border border-[#2f396a] p-2 sm:p-3 items-start">
+                <p id="followers-count" class="text-white tracking-light text-xl sm:text-2xl font-bold leading-tight">6.8k</p>
+                <div class="flex items-center gap-2"><p class="text-[#8e99cc] text-xs sm:text-sm font-normal leading-normal">Followers</p></div>
+              </div>
+              <div class="flex min-w-[100px] sm:min-w-[111px] flex-1 basis-[fit-content] flex-col gap-2 rounded-lg border border-[#2f396a] p-2 sm:p-3 items-start">
+                <p id="views-count" class="text-white tracking-light text-xl sm:text-2xl font-bold leading-tight">12.5K</p>
+                <div class="flex items-center gap-2"><p class="text-[#8e99cc] text-xs sm:text-sm font-normal leading-normal">Views</p></div>
+              </div>
+              <div class="flex min-w-[100px] sm:min-w-[111px] flex-1 basis-[fit-content] flex-col gap-2 rounded-lg border border-[#2f396a] p-2 sm:p-3 items-start">
+                <p id="likes-count" class="text-white tracking-light text-xl sm:text-2xl font-bold leading-tight">342</p>
+                <div class="flex items-center gap-2"><p class="text-[#8e99cc] text-xs sm:text-sm font-normal leading-normal">Total Liked</p></div>
+              </div>
+            </div>
+            <h2 class="text-white text-lg sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Projects</h2>
+            <div id="projects-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+
+
+
+
+              <div class="flex flex-col gap-3 pb-3 magic-hover cursor-pointer">
+                <a href="https://gamehub-com.pages.dev/" target="_blank">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl" style='background-image: url("https://project-screenshots.websim.com/0195d513-b581-7439-8f9f-eae6828460e9");'></div>
+                </a>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Gamehub</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">A website with 100+ games in one website but a lot of the games aren't mobile supported.</p>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-3 pb-3 magic-hover cursor-pointer">
+                <a href="https://vidlo-com.pages.dev" target="_blank">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl" style='background-image: url("Screenshot 2025-07-21 2.07.12 AM.png");'></div>
+                </a>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Vidlo - A Free Movie Platform</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">A free movie streaming platform. It offers a wide selection of entertainment, including movies, TV series, anime, and live TV channels. Vidlo features content from popular streaming platforms such as Netflix, Disney+, Hulu, Prime Video, Paramount+, Peacock, and more.</p>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-3 pb-3 magic-hover cursor-pointer">
+                <a href="https://hacker-ui.pages.dev" target="_blank">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl" style='background-image: url("b438ef1f-0414-44df-a3bf-fdfb6d1956b1.png");'></div>
+                </a>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Fake Hacker Interface</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">A Fake Hacker Interface with Cameras, (fake) IDS, Walkie Talkie Channels, and Secret Govnerment Files to prank your friends and family. Remember that everything on this website isn't real and is only a joke.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+        // Follow button functionality
+        (async () => {
+          const btn = document.getElementById('follow-btn');
+          const targetUser = 'Pakodev';
+          const setState = (isFollowing) => {
+            btn.dataset.state = isFollowing ? 'following' : 'follow';
+            btn.textContent = isFollowing ? 'Following' : 'Follow';
+            btn.classList.toggle('bg-green-500', isFollowing);
+            btn.classList.toggle('hover:bg-green-600', isFollowing);
+            btn.classList.toggle('bg-[#4285f4]', !isFollowing);
+            btn.classList.toggle('hover:bg-[#3367d6]', !isFollowing);
+          };
+          try {
+            const res = await fetch(`/api/v1/users/${targetUser}/follow-status`);
+            if (res.ok) {
+              const { isFollowing } = await res.json();
+              setState(isFollowing);
+            }
+          } catch (e) { /* silent */ }
+          btn.addEventListener('click', async () => {
+            const isFollowing = btn.dataset.state === 'following';
+            btn.disabled = true;
+            try {
+              const method = isFollowing ? 'DELETE' : 'POST';
+              const res = await fetch(`/api/v1/users/${targetUser}/follow`, { 
+                method,
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({})
+              });
+              if (!res.ok) throw new Error('request failed');
+              setState(!isFollowing);
+            } catch (e) { /* revert visual if needed */ }
+            finally { btn.disabled = false; }
+          });
+        })();
+    </script>
+  </body>
+</html>
