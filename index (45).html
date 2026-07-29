@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Serif%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Pakodev's Profile</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#101323] dark group/design-root overflow-x-hidden" style='font-family: "Noto Serif", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="px-4 sm:px-8 md:px-16 lg:px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:px-4 @[480px]:py-3">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-[#101323] rounded-xl @[480px]:rounded-xl min-h-[180px] sm:min-h-[218px]"
+                  style='background-image: url("3497-blue-anime.png");'
+                ></div>
+              </div>
+            </div>
+            <div class="flex p-4 @container">
+              <div class="flex w-full flex-col gap-4 @[520px]:flex-row @[520px]:justify-between @[520px]:items-center">
+                <div class="flex gap-3 sm:gap-4 flex-col sm:flex-row items-start">
+                  <div class="flex items-start">
+                    <div class="relative">
+                      <div id="user-avatar" class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-24 w-24 sm:min-h-32 sm:w-32" style="background-image: url('e7b7e3f6758e91d1afc936854a58b0c0.png')"></div>
+                      <div class="absolute bottom-0 right-0 w-8 h-8 sm:w-10 sm:h-10 bg-green-500 rounded-full border-4 border-[#101323] flex items-center justify-center">
+                        <div class="w-2 h-2 sm:w-3 sm:h-3 bg-white rounded-full animate-pulse"></div>
+                      </div>
+                      <div id="current-project-desktop" class="hidden sm:block absolute -top-2 -right-2 bg-[#2f396a] rounded-lg px-2 py-1 sm:px-3 sm:py-2 text-xs text-white whitespace-nowrap shadow-lg max-w-[120px] sm:max-w-none">
+                        <div class="text-green-400 font-semibold">Working on</div>
+                        <div id="current-project-name-desktop">Vidlo</div>
+                      </div>
+                    </div>
+                    <div id="current-project-mobile" class="block sm:hidden ml-2 mt-2 bg-[#2f396a] rounded-lg px-2 py-1 text-xs text-white whitespace-nowrap shadow-lg max-w-[120px] sm:max-w-none">
+                      <div class="text-green-400 font-semibold">Working on</div>
+                      <div id="current-project-name-mobile">Vidlo</div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col justify-center">
+                    <p id="username" class="text-white text-lg sm:text-[22px] font-bold leading-tight tracking-[-0.015em]">@Pakodev</p>
+                    <p class="text-[#8e99cc] text-sm sm:text-base font-normal leading-normal">Charlotte, FL</p>
+                    <p class="text-[#8e99cc] text-sm sm:text-base font-normal leading-normal">Joined in 2024</p>
+                    <div class="flex items-center gap-2 mt-2">
+                      <button id="follow-btn" class="px-4 py-2 bg-[#4285f4] hover:bg-[#3367d6] rounded-lg text-white text-sm font-medium transition-colors">
+                        Follow
+                      </button>
+                      <!-- Social links for mobile -->
+                      <div class="flex gap-2 sm:hidden">
+                        <a href="https://www.roblox.com/users/151815165/profile" target="_blank" class="group">
+                          <img src="https://i.pinimg.com/736x/f8/9d/e3/f89de387a07563ee444f8e9e17f7bb8c.jpg" alt="Roblox" class="w-9 h-9 rounded-full object-cover transition-transform group-hover:scale-110">
+                        </a>
+                        <a href="https://discord.com/users/1311869629714399342" target="_blank" class="group">
+                          <img src="https://cdn-icons-png.flaticon.com/512/3670/3670157.png" alt="Discord" class="w-9 h-9 rounded-full object-cover transition-transform group-hover:scale-110">
+                        </a>
+                        <a href="https://github.com/Lunerxcurse" target="_blank" class="group">
+                          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" class="w-9 h-9 rounded-full object-cover transition-transform group-hover:scale-110">
+                        </a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden sm:flex gap-3 flex-row items-center justify-center sm:justify-end">
+                  <a href="https://www.roblox.com/users/151815165/profile" target="_blank" class="flex flex-col items-center gap-2 text-center group">
+                    <img src="https://i.pinimg.com/736x/f8/9d/e3/f89de387a07563ee444f8e9e17f7bb8c.jpg" alt="Roblox" class="w-12 h-12 rounded-full object-cover transition-transform group-hover:scale-110">
+                    <span class="text-[#8e99cc] text-xs group-hover:text-white transition-colors">Roblox</span>
+                  </a>
+                  <a href="https://discord.com/users/1311869629714399342" target="_blank" class="flex flex-col items-center gap-2 text-center group">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3670/3670157.png" alt="Discord" class="w-12 h-12 rounded-full object-cover transition-transform group-hover:scale-110">
+                    <span class="text-[#8e99cc] text-xs group-hover:text-white transition-colors">Discord</span>
+                  </a>
+                  <a href="https://github.com/Lunerxcurse" target="_blank" class="flex flex-col items-center gap-2 text-center group">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" class="w-12 h-12 rounded-full object-cover transition-transform group-hover:scale-110">
+                    <span class="text-[#8e99cc] text-xs group-hover:text-white transition-colors">GitHub</span>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+            <div class="@container">
+              <div class="gap-2 px-4 flex flex-wrap justify-start">
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2 sm:gap-3 px-4 py-3">
+              <div class="flex min-w-[100px] sm:min-w-[111px] flex-1 basis-[fit-content] flex-col gap-2 rounded-lg border border-[#2f396a] p-2 sm:p-3 items-start">
+                <p id="projects-count" class="text-white tracking-light text-xl sm:text-2xl font-bold leading-tight">3</p>
+                <div class="flex items-center gap-2"><p class="text-[#8e99cc] text-xs sm:text-sm font-normal leading-normal">Projects</p></div>
+              </div>
+              <div class="flex min-w-[100px] sm:min-w-[111px] flex-1 basis-[fit-content] flex-col gap-2 rounded-lg border border-[#2f396a] p-2 sm:p-3 items-start">
+                <p id="followers-count" class="text-white tracking-light text-xl sm:text-2xl font-bold leading-tight">6.8k</p>
+                <div class="flex items-center gap-2"><p class="text-[#8e99cc] text-xs sm:text-sm font-normal leading-normal">Followers</p></div>
+              </div>
+              <div class="flex min-w-[100px] sm:min-w-[111px] flex-1 basis-[fit-content] flex-col gap-2 rounded-lg border border-[#2f396a] p-2 sm:p-3 items-start">
+                <p id="views-count" class="text-white tracking-light text-xl sm:text-2xl font-bold leading-tight">12.5K</p>
+                <div class="flex items-center gap-2"><p class="text-[#8e99cc] text-xs sm:text-sm font-normal leading-normal">Views</p></div>
+              </div>
+              <div class="flex min-w-[100px] sm:min-w-[111px] flex-1 basis-[fit-content] flex-col gap-2 rounded-lg border border-[#2f396a] p-2 sm:p-3 items-start">
+                <p id="likes-count" class="text-white tracking-light text-xl sm:text-2xl font-bold leading-tight">342</p>
+                <div class="flex items-center gap-2"><p class="text-[#8e99cc] text-xs sm:text-sm font-normal leading-normal">Total Liked</p></div>
+              </div>
+            </div>
+            <h2 class="text-white text-lg sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Projects</h2>
+            <div id="projects-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+
+
+
+
+              <div class="flex flex-col gap-3 pb-3 magic-hover cursor-pointer">
+                <a href="https://vidlo-com.pages.dev" target="_blank">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl" style='background-image: url("Screenshot 2025-07-21 2.07.12 AM.png");'></div>
+                </a>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Vidlo - A Free Movie Platform</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">A free movie streaming platform. It offers a wide selection of entertainment, including movies, TV series, anime, and live TV channels. Vidlo features content from popular streaming platforms such as Netflix, Disney+, Hulu, Prime Video, Paramount+, Peacock, and more.</p>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-3 pb-3 magic-hover cursor-pointer">
+                <a href="https://2013-internet-simulater.pages.dev/" target="_blank">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl" style='background-image: url("2013-internet-simulator-thumbnail.png");'></div>
+                </a>
+                <div>
+                  <div class="flex items-center gap-2 flex-nowrap min-w-0">
+                    <p class="text-white text-base font-medium leading-normal truncate whitespace-nowrap">2013 Internet Simulator</p>
+                  </div>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">A 2013 Internet simulator that uses The Internet Archive to pull real archived pages from that era. Since it's fetching archived snapshots, pages can take a bit of time to load.</p>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-3 pb-3 magic-hover cursor-pointer">
+                <div class="w-full bg-[#1b2140] aspect-video rounded-xl flex items-center justify-center">
+                  <i class="fas fa-hourglass-half text-4xl sm:text-5xl text-gray-400"></i>
+                </div>
+                <div>
+                  <div class="flex items-center gap-2 flex-nowrap min-w-0">
+                    <p class="text-white text-base font-medium leading-normal truncate whitespace-nowrap">Tunez</p>
+                    <span class="text-gray-400 text-xs sm:text-sm font-semibold leading-none whitespace-nowrap">Coming soon</span>
+                  </div>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">
+                    A free music website with a clean, high-quality UI and a catalog of millions of songs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+        // Follow button functionality (client-side only, persisted in this browser)
+        (() => {
+          const btn = document.getElementById('follow-btn');
+          const followersEl = document.getElementById('followers-count');
+          const targetUser = 'Pakodev';
+          const storageKey = `follow-state:${targetUser}`;
+
+          // Parse the displayed follower count (handles "6.8k" style formatting)
+          const parseCount = (str) => {
+            const s = str.trim().toLowerCase();
+            const mult = s.endsWith('k') ? 1000 : s.endsWith('m') ? 1000000 : 1;
+            const num = parseFloat(s.replace(/[km]/, ''));
+            return Math.round(num * mult);
+          };
+          const formatCount = (n) => {
+            if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+            if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+            return String(n);
+          };
+
+          const baseCount = followersEl ? parseCount(followersEl.textContent) : null;
+
+          const setState = (isFollowing) => {
+            btn.dataset.state = isFollowing ? 'following' : 'follow';
+            btn.textContent = isFollowing ? 'Following' : 'Follow';
+            btn.classList.toggle('bg-green-500', isFollowing);
+            btn.classList.toggle('hover:bg-green-600', isFollowing);
+            btn.classList.toggle('bg-[#4285f4]', !isFollowing);
+            btn.classList.toggle('hover:bg-[#3367d6]', !isFollowing);
+            if (followersEl && baseCount !== null) {
+              followersEl.textContent = formatCount(isFollowing ? baseCount + 1 : baseCount);
+            }
+          };
+
+          // Restore previous state from this browser
+          const saved = localStorage.getItem(storageKey);
+          setState(saved === 'following');
+
+          btn.addEventListener('click', () => {
+            const isFollowing = btn.dataset.state === 'following';
+            setState(!isFollowing);
+            localStorage.setItem(storageKey, !isFollowing ? 'following' : 'follow');
+          });
+        })();
+    </script>
+  </body>
+</html>
